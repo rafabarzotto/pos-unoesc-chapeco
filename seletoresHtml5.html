@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Seletores HTML5</title>
+	</head>
+	<body>
+	<section>
+		<nav>
+			<ul id="menu-list"><li class="item">Home</li></ul>
+			<ul><li class="item">Primero</li></ul>
+			<ul><li class="item">Segundo</li></ul>
+			<ul><li class="item">Contato</li></ul>
+		</nav>
+		</section>
+		<script type="text/javascript">
+		var itens = document.getElementsByClassName("item");
+		console.log(itens);
+
+		function adicionaItem (valor) {
+				document.getElementById("menu-list").innerHTML+='<li>' + valor + '</li>';
+			}
+		adicionaItem("TESTE DO INNER");	
+
+		</script>
+	</body>
+</html>
