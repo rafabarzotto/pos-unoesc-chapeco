@@ -34,6 +34,7 @@
     var condition = navigator.onLine ? "online" : "offline";
     status.className = condition;
     status.innerHTML = condition.toUpperCase();
+    document.title=document.title==condition?'ON':'OFF';
     log.insertAdjacentHTML("beforeend", "Event: " + event.type + "; Status: " + condition);
     }
     window.addEventListener('online',  updateOnlineStatus);
