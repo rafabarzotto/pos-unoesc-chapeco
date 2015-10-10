@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<script type="text/javascript" src="js/validaCNPJ.js"></script>
+	<script type="text/javascript">
+	function vCNPJ(i){
+		i.setCustomValidity(validarCNPJ(i.value) ? "DEU BOA" : "ERRO!");
+	}
+
+	</script>
+	<title>CNPJ</title>
+</head>
+<body>
+<form>
+	<input name="cnpj" oninput="vCNPJ(this)">
+	<input type="submit">
+</form>
+
+</body>
+</html>

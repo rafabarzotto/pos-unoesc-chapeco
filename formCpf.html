@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<script type="text/javascript" src="js/cpf.js"></script>
+	<script type="text/javascript">
+	function vCPF(i){
+		i.setCustomValidity(validaCPF(i.value) ? "DEU BOA" : "ERRO!");
+	}
+
+	</script>
+	<title>CPF</title>
+</head>
+<body>
+<form>
+	<input name="cpf" oninput="vCPF(this)">
+	<input type="submit">
+</form>
+
+</body>
+</html>
