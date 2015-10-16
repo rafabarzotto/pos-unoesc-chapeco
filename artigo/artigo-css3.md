@@ -106,5 +106,25 @@ to {background: grey;}
 
 ##### Referência:
 ----------------
+### 6 - CSS Animation
+
+##### O que é?
+
+##### Onde usar:
+
+##### Como Usar:
+
+```css
+@keyframes cssanimation
+{
+from {background: blue;}
+to {background: grey;}
+}
+```
+
+##### Exemplo:
+
+##### Referência:
+----------------
 
 
