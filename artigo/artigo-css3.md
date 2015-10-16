@@ -1,4 +1,4 @@
-# Artigo CSS3
+# Artigo CSS3 - Rafael Barzotto
 
 #### Unoesc Chapecó
 #### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos Móveis - WebMob
@@ -6,13 +6,13 @@
 #### Professor: Jean Carlo Nascimento
 #### Acadêmico: Rafael Barzotto
 
-##CSS Animation
+###CSS Animation
 
-### O que é?
+#### O que é?
 
-### Onde usar:
+#### Onde usar:
 
-### Como Usar:
+#### Como Usar:
 
 ```css
 @keyframes cssanimation
@@ -22,7 +22,7 @@ to {background: grey;}
 }
 ```
 
-### Exemplo:
+#### Exemplo:
 
-### Referência:
+#### Referência:
 
