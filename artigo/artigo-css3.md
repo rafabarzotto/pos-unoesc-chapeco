@@ -9,17 +9,17 @@
 ### 1 - CSS Animation
 
 ##### O que é?
-	Com as animações CSS é possível definir uma mudança de estilo para outro estilo.
-	Gerar animações deixando o conteudo ou a página da web mais dinâmica, em alguns casos
-	pode se substituir as animações flash ou javascript pelo CSS Animation, que é renderizado de forma mais rápida.
+Com as animações CSS é possível definir uma mudança de estilo para outro estilo.
+Gerar animações deixando o conteudo ou a página da web mais dinâmica, em alguns casos
+pode se substituir as animações flash ou javascript pelo CSS Animation, que é renderizado de forma mais rápida.
 
 
 ##### Onde usar:
-	Qualquer página da Web que se deseja implementar conteudo dinâmico e atrativo.
+Qualquer página da Web que se deseja implementar conteudo dinâmico e atrativo.
 
 ##### Como Usar:
-	Descrever como o elemento será animado com o keyframe, este que indicara o estado inicial e final da animação de acordo
-	com uma porcentagem. 0% inicio, 100% fim.
+Descrever como o elemento será animado com o keyframe, este que indicara o estado inicial e final da animação de acordo
+com uma porcentagem. 0% inicio, 100% fim.
 
 	```css
 	@keyframes example {
@@ -29,7 +29,7 @@
     100% {background-color: green;}
 	}
 	```
-	Depois aplicar o keyframe em um selector para que a animação possa acontecer.
+Depois aplicar o keyframe em um selector para que a animação possa acontecer.
 
 	```css
 	div {
@@ -52,7 +52,7 @@
 ##### O que é?
 
 ##### Onde usar:
-	Alterar a cor de uma palavra ou o background para chamar a atenção ao passar o mouse pelo elemento.
+Alterar a cor de uma palavra ou o background para chamar a atenção ao passar o mouse pelo elemento.
 
 ##### Como Usar:
 
