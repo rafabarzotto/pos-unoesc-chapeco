@@ -21,17 +21,18 @@ Qualquer página da Web que se deseja implementar conteudo dinâmico e atrativo.
 Descrever como o elemento será animado com o keyframe, este que indicara o estado inicial e final da animação de acordo
 com uma porcentagem. 0% inicio, 100% fim.
 
-	```css
-	@keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
-	}
-	```
+```css
+@keyframes example {
+0%   {background-color: red;}
+25%  {background-color: yellow;}
+50%  {background-color: blue;}
+100% {background-color: green;}
+}
+```
+
 Depois aplicar o keyframe em um selector para que a animação possa acontecer.
 
-	```css
+```css
 	div {
    animation-name: exemplo; // Nome da animacão
    animation-duration: 5s; //duração 
@@ -41,7 +42,7 @@ Depois aplicar o keyframe em um selector para que a animação possa acontecer.
    animation-direction: alternate; //direção de inicio, começar pelo incio ou pelo final 
    animation-play-state: running; //define se a animação está rodando ou nao
 	}
-	```
+```
 
 ##### Exemplo:
 
