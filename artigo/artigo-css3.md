@@ -34,6 +34,7 @@ Depois aplicar o keyframe em um selector para que a animação possa acontecer.
 
 ```css
 div {
+<<<<<<< HEAD
 animation-name: exemplo; /* Nome da animacão */
 animation-duration: 5s;  /* duração */
 animation-timing-function: ease; /* progressão da animação no tempo */
@@ -41,6 +42,15 @@ animation-delay: 1s; /* quando inicia */
 animation-iteration-count: infinite; /*repetição da animação */
 animation-direction: alternate; /*direção de inicio, começar pelo incio ou pelo final */
 animation-play-state: running; /*define se a animação está rodando ou nao */
+=======
+animation-name: exemplo; <!-- // Nome da animacão -->
+animation-duration: 5s; <!-- //duração -->
+animation-timing-function: ease; //progressão da animação no tempo
+animation-delay: 1s; // quando inicia
+animation-iteration-count: infinite; //repetição da animação
+animation-direction: alternate; //direção de inicio, começar pelo incio ou pelo final 
+animation-play-state: running; //define se a animação está rodando ou nao
+>>>>>>> origin/master
 }
 ```
 
