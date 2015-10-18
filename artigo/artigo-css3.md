@@ -33,41 +33,60 @@ com uma porcentagem. 0% inicio, 100% fim.
 Depois aplicar o keyframe em um selector para que a animação possa acontecer.
 
 ```css
-	div {
-   animation-name: exemplo; // Nome da animacão
-   animation-duration: 5s; //duração 
-   animation-timing-function: ease; //progressão da animação no tempo
-   animation-delay: 1s; // quando inicia
-   animation-iteration-count: infinite; //repetição da animação
-   animation-direction: alternate; //direção de inicio, começar pelo incio ou pelo final 
-   animation-play-state: running; //define se a animação está rodando ou nao
-	}
-```
-
-##### Exemplo:
-
-##### Referência:
-----------------
-### 2 - CSS Animation
-
-##### O que é?
-
-##### Onde usar:
-Alterar a cor de uma palavra ou o background para chamar a atenção ao passar o mouse pelo elemento.
-
-##### Como Usar:
-
-```css
-@keyframes cssanimation
-{
-from {background: blue;}
-to {background: grey;}
+div {
+animation-name: exemplo; /* Nome da animacão */
+animation-duration: 5s;  /* duração */
+animation-timing-function: ease; /* progressão da animação no tempo */
+animation-delay: 1s; /* quando inicia */
+animation-iteration-count: infinite; /*repetição da animação */
+animation-direction: alternate; /*direção de inicio, começar pelo incio ou pelo final */
+animation-play-state: running; /*define se a animação está rodando ou nao */
 }
 ```
 
 ##### Exemplo:
 
 ##### Referência:
+
+http://tableless.com.br/transition-e-animation/
+----------------
+### 2 - CSS Transition
+
+##### O que é?
+Quando se usa a propriedade :hover ou :focus para mudar o estado de um elemento, a troca ocorre bruscamente
+de um estado a outro.
+Para suavisar a troca entre os estados escolhidos de forma suave, pode-se usar o CSS transition, este que realizada 
+a troca de forma dinâmica de acordo com o determinado tempo.
+
+##### Onde usar:
+Alterar a cor de uma palavra ou o background para chamar a atenção ao passar o mouse pelo elemento.
+Alterar forma ou tamanho de um elemento dinâmicamente em um periodo de tempo determinado
+
+##### Como Usar:
+
+```css
+div {
+    width: 100px; /* largura */
+    height: 100px; /* altura */
+    background: red; /* cor do background */
+    transition: width 2s; /* tipo de transição e tempo de duração */
+}
+```
+
+Ao passar o mouse aciona o :hover aumenta de 100px para 300px em uma transição suave que levará 2 segundos.
+
+```css
+div:hover {
+    width: 300px;
+}
+```
+##### Exemplo:
+
+http://www.w3schools.com/css/tryit.asp?filename=trycss3_transition1
+
+##### Referência:
+
+http://tableless.com.br/transition-e-animation/
 ----------------
 ### 3 - CSS Animation
 
