@@ -52,7 +52,8 @@ Um exemplo de como aplicar está definido no item *Como Usar:*
 
 ##### Referência:
 
-(http://tableless.com.br/transition-e-animation/)
+(http://tableless.com.br/transition-e-animation)
+
 ----------------
 ### 2 - CSS Transition
 
