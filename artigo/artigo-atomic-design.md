@@ -15,7 +15,6 @@
 ##### O que é?
 
 A ideia é criar os modulos do layout em pedaços, para que no final se torne algo concreto, assim como a matéria, na quimica. Para isso foi definido os componentes que se encaixam nas categorias propostas, átomos, moleculas e organismos.
-Este método se aplica melhor para a criação de sistemas web, do que para páginas comuns e simples.
 
 ##### Como funciona?
 
@@ -46,6 +45,8 @@ E por fim a página que é a versão concreta do que se formou a partir de todos
 Além da organização que o atomic design fornece, deixando o código mais limpo, o que torna mais fácil a detecção de erros, ajustes, testes, e reuso ele também fornece um padrão para o desenvolvimento, pois em todo projeto existe um padrão e um processo a ser seguido, por exemplo na construção de um carro. Foi o que Frost queria estabelecer para o desenvolvimento web.
 
 ##### Onde usar?
+
+Pode-se usar em qualquer projeto web, porém este método se aplica melhor para a criação de sistemas web, do que para páginas comuns e simples.
 
 ##### Exemplos
 
