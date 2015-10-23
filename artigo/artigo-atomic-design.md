@@ -49,21 +49,23 @@ Além da organização que o atomic design fornece, deixando o código mais limp
 
 ##### Exemplos
 
+###### Átomos: Cores, logos, fontes, botões, icones, campos
+
 <img src="img/atomo_cel.png">
 
-###### Moléculas
+###### Moléculas: Menus, navbar, formulários
 
 <img src="img/moleculas_cel.png">
 
-###### Organismo
+###### Organismo: Cabeçalho, rodapé, sessões da página
 
 <img src="img/organismo_cel.png">
 
-###### Template (Modelo)
+###### Template (Modelo): Composição dos itens porém sem a apresentação do conteúdo, apenas o esqueleto
 
 <img src="img/template_cel.png">
 
-###### Página
+###### Página: Resultado da junção das partes e apresentação do conteúdo
 
 <img src="img/pagina_cel.png">
 
