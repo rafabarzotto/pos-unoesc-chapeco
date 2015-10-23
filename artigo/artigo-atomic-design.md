@@ -49,9 +49,23 @@ Além da organização que o atomic design fornece, deixando o código mais limp
 
 ##### Exemplos
 
-<img src="img/atomo.png">
-<img src="img/molecula.png">
-<img src="img/organismo.png">
+<img src="img/atomo_cel.png">
+
+###### Moléculas
+
+<img src="img/moleculas_cel.png">
+
+###### Organismo
+
+<img src="img/organismo_cel.png">
+
+###### Template (Modelo)
+
+<img src="img/template_cel.png">
+
+###### Página
+
+<img src="img/pagina_cel.png">
 
 ##### Referências:
 
